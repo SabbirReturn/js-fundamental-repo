@@ -1,5 +1,5 @@
 const friens =[ 'sabbir','Hasan','Robin'];
-let num= 1;
+// let num= 1;
 friens.push('Rahman');
 const out = friens.pop()
 // console.log(out);
@@ -26,10 +26,19 @@ let sum = 0;
 //     console.log('sum:', sum);
 // }
 
+// while ( num<=10){
+//     console.log(num);
+//     num+=1;
+//     if(10 % 2 ===0){
+//         console.log('even number:', num);
+//     }
+// }
+
+let num = 0;
 while ( num<=10){
     console.log(num);
     num+=1;
-    if(10 % 2 ===0){
-        console.log('even number:', num);
+    if(num % 2 ===0){
+        console.log('odd number:', num);
     }
 }
