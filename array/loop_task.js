@@ -22,26 +22,23 @@
 // }
 
 
-let num = 81;
-const sum =0;
-while( num<=131){
-    console.log(num);
-    num+=1;
-    if(num % 2 !==0){
-        console.log('odd number:',num);
-        // sum = sum + num;
-        // console.log(sum);
-    }
-}
-// let sumOfOddNumbers = 0;
-
-// // Loop through the numbers from 81 to 131
-// for (let num = 81; num <= 131; num++) {
-//     // Check if the number is odd
+// let num = 81;
+// const sum =0;
+// while( num<=131){
 //     console.log(num);
-//     if (num % 2 !== 0) {
-//         // If it's odd, add it to the sum
-//         sumOfOddNumbers += num;
-//         console.log(sumOfOddNumbers)
+//     num+=1;
+//     if(num % 2 !==0){
+//         console.log('odd number:',num);
+//         // sum = sum + num;
+//         // console.log(sum);
 //     }
 // }
+
+let num = 206;
+while(num<=311){
+    console.log(num);
+    num+=1;
+    if(num % 2 ===0){
+        console.log('Even num:',num);
+    }
+}
