@@ -34,11 +34,18 @@
 //     }
 // }
 
-let num = 206;
-while(num<=311){
-    console.log(num);
-    num+=1;
-    if(num % 2 ===0){
-        console.log('Even num:',num);
+// let num = 206;
+// while(num<=311){
+//     console.log(num);
+//     num+=1;
+//     if(num % 2 ===0){
+//         console.log('Even num:',num);
+//     }
+// }
+
+for ( let i = 0; i<=10; i+=1){
+    console.log(i);
+    if( i % 2 !==0){
+        console.log('odd num',i);
     }
 }
