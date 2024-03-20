@@ -14,7 +14,13 @@
 //     console.log(`${num} * ${i} = ${result} `);
 // }
 
-const num = 6;
+// const num = 6;
+// for(let i=0 ; i<=10 ; i+=1){
+//     // console.log(i);
+//     const maltiplication = num * i;
+//     console.log(`${num} * ${i} = ${maltiplication}`);
+// }
+const num = 9;
 for(let i=0 ; i<=10 ; i+=1){
     // console.log(i);
     const maltiplication = num * i;
