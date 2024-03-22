@@ -15,7 +15,7 @@ const school = 'Bheramara Pilot High School'
 //     console.log('fail korbo')
 // }
 
-
+// white space
 const drink= ' water';
 const liqued = 'water';
 if(drink.trim() === liqued.trim()){
