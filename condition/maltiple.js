@@ -10,9 +10,19 @@ var hasCar = false;
 // }
 
 // ..................complex..............
-if((salary>20000 & hasCar==true)|| isBCS == true){
-    console.log('accept');
+// if((salary>20000 & hasCar==true)|| isBCS == true){
+//     console.log('accept');
+// }
+// else{
+//     console.log('reject');
+// }
+
+//...................simple.............
+var salary = 20000;
+var hashome = false;
+if(salary>18000 & hashome==true){
+    console.log('bolo baba kobul')
 }
 else{
-    console.log('reject');
+    console.log('Muri khaw')
 }
