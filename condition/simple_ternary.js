@@ -6,5 +6,5 @@ if(num1>num2){
 }
 else{
     var sum = num1 + num2;
-    console.log (sum);
+    console.log ("sum:",sum);
 }
