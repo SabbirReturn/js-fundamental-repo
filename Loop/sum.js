@@ -1,9 +1,11 @@
-let num = 1;
-let sum =0;
+// let num = 1;
+// let sum =0;
 
-while(num<10){
-    console.log(num);
-     sum = sum + num;
-    console.log('total:',sum);
-    num++;
-}
+// while(num<10){
+//     console.log(num);
+//      sum = sum + num;
+//     console.log('total:',sum);
+//     num++;
+// }
+
+
