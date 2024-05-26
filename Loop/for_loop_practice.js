@@ -53,6 +53,13 @@
 
 // ........................Implement a countdown timer that counts down from 81 to 65............................
 
-for(let i = 81; i>= 65 ; i--){
-    console.log(i);
+// for(let i = 81; i>= 65 ; i--){
+//     console.log(i);
+// }
+
+
+for( let i = 1; i<=30; i++){
+    if( i % 5 ===0){
+        console.log
+    }
 }
