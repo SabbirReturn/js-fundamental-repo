@@ -13,11 +13,20 @@
 //     console.log('Fail');
 // }
 
-let drink = ' water';
-let liquid = 'water';
-if(drink.trim === liquid.trim){
-    console.log('Panir opor name jibon')
+// let drink = ' water';
+// let liquid = 'water';
+// if(drink.trim === liquid.trim){
+//     console.log('Panir opor name jibon')
+// }
+// else{
+//     console.log('sumodrer pani nonta');
+// }
+
+let book = "English";
+let subject = "english";
+if(book.toLocaleLowerCase === subject.toLocaleLowerCase){
+    console.log('pash korbo');
 }
 else{
-    console.log('sumodrer pani nonta');
+    console.log('Fail korbo')
 }
