@@ -22,9 +22,18 @@
 //     console.log('sumodrer pani nonta');
 // }
 
+// let book = "English";
+// let subject = "english";
+// if(book.toLocaleLowerCase === subject.toLocaleLowerCase){
+//     console.log('pash korbo');
+// }
+// else{
+//     console.log('Fail korbo')
+// }
+
 let book = "English";
-let subject = "english";
-if(book.toLocaleLowerCase === subject.toLocaleLowerCase){
+let subject = " English ";
+if(book.trim === subject.trim){
     console.log('pash korbo');
 }
 else{
