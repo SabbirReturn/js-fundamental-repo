@@ -31,8 +31,17 @@
 //     console.log('Fail korbo')
 // }
 
-let book = "English";
-let subject = " English ";
+// let book = "English";
+// let subject = " English ";
+// if(book.trim === subject.trim){
+//     console.log('pash korbo');
+// }
+// else{
+//     console.log('Fail korbo')
+// }
+
+let book = "Bnglish";
+let subject = " Bnglish ";
 if(book.trim === subject.trim){
     console.log('pash korbo');
 }
