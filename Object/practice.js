@@ -10,7 +10,10 @@ const human = {
 }
 // console.log(human);
 human.favourite_iteam.food[0] = 'Sada vat',
-console.log(human);
+// console.log(human);
 // const keys = Object.keys(human);
-const values = Object.values(human);
-console.log(values);
+// const values = Object.values(human);
+// console.log(values);
+// console.log(keys);
+human.favourite_iteam.food = ['khicuri','dim vuna','jhal vorta'];
+console.log(human);
